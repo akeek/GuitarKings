@@ -64,3 +64,8 @@ footer {
 .review_images {
   border-radius: 50%;
 }
+
+input[type="submit"] {
+  color: white;
+  background-color: red;
+}
