@@ -3,6 +3,10 @@
   src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
 }
 
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1,
 h2,
 .logo {
@@ -13,10 +17,31 @@ h2,
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
 header,
 footer {
   background-color: #202020;
   color: #ffffff;
+}
+
+/* Links */
+a {
+  text-decoration: none;
 }
 
 header a {
@@ -71,4 +96,8 @@ select,
 textarea {
   border: 1px solid #c4c4c4;
   border-radius: 5px;
+}
+
+.hide {
+  display: none;
 }
